@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- seccion INICIO -->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-brands fa-codepen"></i>
+                        <h1>Marcos López</h1>
+                    </div>
+                    <nav id="nav" class="">
+                        <a href="#inicio">Inicio</a>    
+                        <a href="#servicios">Servicios</a>    
+                        <a href="#habilidades">Habilidades</a>   
+                        <a href="#trabajos">Trabajos</a>   
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+    
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </header>
+
+                <div class="fila">
+                    <div class="col">
+                        <h2>Desarrollador Fullstack</h2>
+                        <p>Soy un desarrollador fullstack con experiencia en diseño web, diseño gráfico, animaciones, marketing y soporte al cliente. Me considero una persona proactiva, creativa y comprometida con mi trabajo. He trabajado en proyectos de diseño web, programación y animaciones. Siempre estoy buscando nuevas formas de mejorar mis habilidades y conocimientos.</p>
+                        <button class="btn btn-1">Descargar CV</button>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+   
+    <!-- seccion SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                    </div>
+                    <h3>Diseño Web</h3>
+                    <p>Diseño y desarrollo de sitios web atractivos, funcionales y responsivos.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                    </div>
+                    <h3>Diseño Gráfico</h3>
+                    <p>Creación de imágenes, logotipos, banners, folletos y otros materiales promocionales para su sitio web, redes sociales, correo electrónico, etc.
+                        Trabajo con herramientas de diseño gráfico como Adobe Photoshop, Illustrator y Canva.
+                    </p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                    </div>
+                    <h3>Animaciones</h3>
+                    <p>Creo animaciones en 2D y 3D para agregar interactividad a sitios web y aplicaciones con herramientas de animación como Adobe After Effects, Cinema 4D y Blender.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+                    </div>
+                    <h3>Marketing</h3>
+                    <p>Creación de campañas publicitarias en redes sociales, correo electrónico y en línea ayudando a promocionar un sitio web o aplicación.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </div>
+                    </div>
+                    <h3>Soporte Clientes</h3>
+                    <p>Solución de problemas técnicos relacionados con el sitio web o la aplicación, responder preguntas de los usuarios y proporcionar ayuda en vivo a través de herramientas de chat en vivo, correo electrónico o teléfono.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                    <h3>Tiendas</h3>
+                    <p>Creación y mantenimiento de tiendas en línea, actualización y solución de problemas. </p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="95">
+                                95%
+                            </div>
+                            <h2>HTML & CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>BOOSTRAP</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="85">
+                                85%
+                            </div>
+                            <h2>JAVASCRIPT</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="70">
+                                70%
+                            </div>
+                            <h2>MYSQL</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>PHP</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>PHOTOSHOP</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion TRABAJOS -->
+    <section class="trabajos" id="trabajos">
+        <h2>Mis Trabajos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('disenio')">Diseño Web</a>
+            <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Diseño Gráfico</a>
+            <a href="javascript:void(0)" class="" id="animaciones" onclick="verCategoria('animaciones')">Animaciones</a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item disenio">
+                <img src="restaurante.jpg" alt="Imagen">
+                <div class="info">
+                    <h3>Diseño y desarrollo de un sitio web de un restaurante</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a> 
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="redes.jpg" alt="Imagen">
+                <div class="info">
+                    <h3>Diseño de gráficos para redes sociales</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a> 
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="juegos.jpg" alt="Imagen">
+                <div class="info">
+                    <h3>Animaciones para juegos</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a> 
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="medicina.jpg" alt="Imagen">
+                <div class="info">
+                    <h3>Diseño y desarrollo de un sitio web de un centro médico</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a> 
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="videospublicitarios.png" alt="Imagen">
+                <div class="info">
+                    <h3>Videos publicitarios</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a> 
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="infografia.png" alt="Imagen">
+                <div class="info">
+                    <h3>Diseño de infografías</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a> 
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="hotel.jpg" alt="Imagen">
+                <div class="info">
+                    <h3>Diseño y desarrollo de un sitio web de un hotel</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a> 
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="banners.jpg" alt="Imagen">
+                <div class="info">
+                    <h3>Diseño de banners publicitarios</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a> 
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="logotipo.jpg" alt="Imagen">
+                <div class="info">
+                    <h3>Diseño de logotipo para empresa</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3>Email:</h3>
+                        <p>correo@gmail</p>
+                    </div>
+                    <div class="info">
+                        <h3>Teléfono:</h3>
+                        <p>+33 6565</p>
+                    </div>
+                    <div class="info">
+                        <h3>Pais:</h3>
+                        <p>Argentina</p>
+                    </div>
+                    <div class="info">
+                        <h3>Provincia:</h3>
+                        <p>Entre Ríos</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Correo">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar" class="btn">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Creado por Stefania</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>            
+
+
+                
+                
+
+
+
+
